@@ -1,0 +1,52 @@
+.section {
+  padding: 100px 20px;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px 80px;
+  box-shadow: 0 30px 60px -12px rgba(50,50,93,.25),
+    0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+}
+
+.shape-one {
+  position: absolute;
+  background-color: #42a5f5;
+  right: 5%;
+  height: 80px;
+  top: 100px;
+  left: 0;
+  
+}
+.shape-two {
+    position: absolute;
+    background-color: #4527A0;
+    right: 0%;
+    height: 80px;
+    top: 180px;
+    left: 5%;
+  }
+  .shape-three{
+    position: absolute;
+  background-color: #aedd81;
+  right: 0%;
+  height: 80px;
+  top: 260px;
+  left: 10%;
+  }
+body{
+    margin: 0;
+}
+.shapes{
+    transform: skewY(-12deg);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+}
